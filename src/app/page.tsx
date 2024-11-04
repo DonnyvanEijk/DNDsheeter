@@ -14,9 +14,9 @@ export default function Home() {
           </div>
                {/* De rest er naast!!! */}
           <div className="flex justify-between flex-row items-center w-full mx-5">
-              <div className="font-bold text-xl ">
+              <div>
                 {/* Navitem */}
-                SHEETER
+                <p className="font-bold text-xl">D<span className="text-lg">&amp;</span>D SHEETER</p>
               </div>
               <div className="flex flex-row gap-4">
                 <Link href="/create">
