@@ -5,8 +5,8 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 
 
 export const metadata: Metadata = {
-  title: "dnd",
-  description: "HI",
+  title: "D&D Sheeter",
+  description: "A character sheet manager for Dungeons & Dragons 5th Edition",
 };
 
 export default function RootLayout({
