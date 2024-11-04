@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-       <div className="flex flex-row">
+       <div className="flex flex-row dark:bg-zinc-900 bg-zinc-300 ">
       {/* Navdiv */}
           <div className="p-5">
                  {/* Theme swapping linksbovenin */}
@@ -23,7 +23,11 @@ export default function Home() {
                 Nee
               </div>
           </div>
-    </div>
+      </div>
+           {/* page content*/}
+      <div className=" w-full h-full">
+            Hoi marcccc
+      </div>
     </div>
    
   );
